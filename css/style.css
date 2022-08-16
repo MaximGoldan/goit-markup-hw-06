@@ -567,13 +567,17 @@ address {
   background-color: #2196f3;
 }
 /* Форма в подвале футере */
+
+.form-sextion {
+  margin-left: 95px;
+}
 .form-futer-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-left: 95px;
+
   margin-bottom: 20px;
 
   color: #ffffff;
@@ -582,7 +586,6 @@ address {
 .form-futer {
   position: relative;
   display: flex;
-  margin-left: 95px;
 }
 .form-futer-input {
   outline: transparent;
@@ -794,7 +797,7 @@ address {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 530px;
-  min-height: 580px;
+  height: 580px;
   padding: 40px;
   border-radius: 4px;
   background: #ffffff;
@@ -831,19 +834,23 @@ address {
   display: block;
   margin: 0;
 }
+.form-field {
+  margin-bottom: 10px;
+}
 .form-title {
   display: block;
+  font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
 
   color: #212121;
 }
-.form-lable {
-  margin-top: 0em;
-}
+/* .form-lable {
+  margin-top: 0;
+} */
 .form-lable {
   display: flex;
   flex-direction: column;
@@ -857,7 +864,6 @@ address {
 }
 .form-div {
   position: relative;
-  margin-bottom: 10px;
 }
 .form-input {
   padding-left: 40px;
@@ -881,10 +887,12 @@ address {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.form-coment {
+  margin-bottom: 20px;
+}
 .form-texterea {
+  display: block;
   resize: none;
-  margin-bottom: 10px;
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -911,7 +919,7 @@ address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
+  justify-content: center;
   color: #757575;
 }
 .checkbox-label span {
@@ -941,7 +949,9 @@ address {
 
   color: #2196f3;
 }
-
+.form-checkbox {
+  margin-bottom: 30px;
+}
 .checkbox:checked + .checkbox-label span {
   background-color: #2196f3;
   border: 0;

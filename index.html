@@ -393,13 +393,13 @@
           </li>
         </div>
         <!-- Подписатся -->
-        <form>
+        <form class="form-sextion" >
           <p class="form-futer-title">
             Подписаться на рассилку
           </p>
           <div class="form-futer">
-            <label class="form-futer-label" for="email"></label>
-          <input class="form-futer-input" type="email" name="email" id="email" placeholder="E-mail" required >
+            <label class="form-futer-label" for="email-futer"></label>
+          <input class="form-futer-input" type="email" name="email" id="email-futer" placeholder="E-mail" required >
           
           <button type="submit" class="form-futer-batton">Подписаться</button>
           <svg class="form-icon" width="24" height="24">
@@ -418,12 +418,14 @@
               <use href="./imag/symbol-defs.svg#icon-close1"></use>
               </svg>
         </div>
-          <h1 class="form-title">Оставьте свои данные, и мы вам перезвоним</h1>
+        <p class="form-title"> Оставьте свои данные, и мы вам перезвоним </p>
+        
         <form class="form" autocomplete="off">
           
         <div class="form-field">
-          <label class="form-lable" for="naim">Імя</label>
+          <label class="form-lable" for="name">Імя</label>
           <div class="form-div">
+             
           <input class="form-input" type="text" name="name" id="name"  autofocus required >
           <svg class="form-input-icon" width="18" height="18">
               <use href="./imag/symbol-defs.svg#icon-person"></use>
@@ -448,12 +450,12 @@
               </svg>
           </div>
         </div>
-        <div class="form-div">
+        <div class="form-coment">
           <label class="form-lable" for="coment">Коментарий</label>
           <textarea class="form-texterea" name="coment" id="coment" placeholder="Введіть текст" ></textarea>
           </div>
 
-          <div class="form-div">
+          <div class="form-checkbox">
           
             <input class="checkbox visually-hiden " 
             type="checkbox" 
